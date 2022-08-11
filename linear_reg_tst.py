@@ -1,7 +1,4 @@
-#from termios import N_SLIP
-from turtle import color
 import numpy as np
-from pyparsing import col
 from sklearn.model_selection import train_test_split
 from sklearn import datasets
 import matplotlib.pyplot as plt
