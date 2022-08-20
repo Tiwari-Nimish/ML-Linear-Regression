@@ -15,7 +15,7 @@ regressor = LinearRegression()
 def mse(y_true, y_predicted):
     return np.mean((y_true-y_predicted)**2)
 
-x1_train = X_train[:,1]
+x1_train = X_train[:,1]#getting only 1 feature
 x1_test = X_test[:,1]
 x1_train = x1_train.reshape(800,1)
 x1_test = x1_test.reshape(200,1)
